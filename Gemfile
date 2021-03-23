@@ -1,5 +1,8 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
-ruby "2.1.1"
+source "https://rubygems.org"
 
-gem "rspec", "~> 2.14"
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+# gem "rails"
+gem 'rspec'

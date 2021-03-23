@@ -8,4 +8,3 @@ class BonusDrink
     return amount
   end
 end
-puts BonusDrink.total_count_for(100)
